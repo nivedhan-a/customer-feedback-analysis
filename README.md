@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is dedicated to analyzing customer complaints data sourced from the U.S. Consumer Financial Protection Bureau (CFPB). Utilizing the Consumer Complaint Database, this project aims to uncover significant patterns and insights that can drive improvements in customer service and product offerings. The analysis leverages big data technologies, particularly **Hadoop** and **Pig scripts**, to efficiently process and analyze large volumes of data.
+This project is dedicated to analyzing customer complaints data sourced from the U.S. Consumer Financial Protection Bureau (CFPB). Utilizing the Consumer Complaint Database, this project aims to uncover significant patterns and insights that can drive improvements in customer service and product offerings. The analysis leverages **Python** and associated libraries to efficiently process and analyze the data.
 
 ## Key Findings
 
@@ -22,18 +22,16 @@ This project is dedicated to analyzing customer complaints data sourced from the
   This analysis highlights a strong correlation between the timeliness of responses from companies and overall customer satisfaction. Quicker responses often result in fewer escalated complaints, suggesting that improving response times could enhance customer experiences.  
   [View Data](https://1drv.ms/x/c/558da0f2ef8c1a19/EUOQLKVR0XFDpA6mIE2DFMIBQkP2YqQ1Xj9S1eisZmKRCQ?e=4Mbdg5)
 
-
 ## Methodology
 
-The project utilizes **Hadoop** for distributed data processing, ensuring scalability and efficiency. **Pig scripts** are employed to perform data transformation and analysis tasks, allowing for complex queries and aggregations on large datasets. This approach facilitates deep insights while leveraging the power of big data technologies.
+The project utilizes **Python** for data processing and analysis. Python libraries such as **Pandas** and **NumPy** are used for efficient data manipulation and aggregation.
 
 ## Technologies Used
 
-- **Big Data Framework:** Cloudera Hortonworks (HDP)
-- **Data Processing:** Hadoop, Pig Scripts
+- **Data Processing:** Python (Pandas, NumPy)
+- **Data Visualization:** Matplotlib
 
 For more details, access the dataset at [Consumer Complaint Database](https://catalog.data.gov/dataset/consumer-complaint-database).
-
 
 ## TL;DR - Data Files
 
@@ -41,6 +39,3 @@ For more details, access the dataset at [Consumer Complaint Database](https://ca
 - **Complaints by Location:** [Complains_by_Location.csv](https://1drv.ms/x/c/558da0f2ef8c1a19/EREX2oHATQNLiwgb6stCNS8Bnvk53iwjZ_3YCQX5SsqSIA?e=n2pqpm)
 - **Complaints by Product:** [Complains_by_Product.csv](https://1drv.ms/x/c/558da0f2ef8c1a19/EQ3zpZq-YDVMqaTBPGe11F0BYdORPTLftE0rerNPh725jQ?e=Vubml7)
 - **Complaints by Response Time:** [Complains_by_Response_No.csv](https://1drv.ms/x/c/558da0f2ef8c1a19/EUOQLKVR0XFDpA6mIE2DFMIBQkP2YqQ1Xj9S1eisZmKRCQ?e=4Mbdg5)
-
-
-
